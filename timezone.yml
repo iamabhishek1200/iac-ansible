@@ -2,3 +2,7 @@
 - name: windows set timezone for the server
   win_timezone: 
     timezone: "{{ timezone }}"
+
+- name: display timezone
+  win_timezone:
+    timezone: "{{ timezone }}"
